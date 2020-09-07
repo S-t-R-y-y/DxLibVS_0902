@@ -1,11 +1,11 @@
 #include "DxLib.h"
 
-#define GAME_WIDTH			800
-#define GAME_HEIGHT			600
+#define GAME_WIDTH			640
+#define GAME_HEIGHT			480
 #define GAME_COLOR			32
 
 #define GAME_WINDOW_BAR		0
-#define GAME_WINDOW_NAME	"GAME TITLE"
+#define GAME_WINDOW_NAME	"Dxlib_Movie"
 
 #define MOVIE_PATH			".\\MOVIE\\GB.mp4"
 
@@ -37,7 +37,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			ChangeMovieVolumeToGraph(127, handle);
 		}
 
-		DrawGraph(0, 0, handle, FALSE);
+		DrawExtendGraph(0, 0, GAME_WIDTH, GAME_HEIGHT, handle, FALSE);
+		//DrawGraph(0, 0, handle, FALSE);
 
 		DrawString(0, 0, "ìÆâÊÇçƒê∂ÇµÇƒÇ¢Ç‹Ç∑ÅEÅEÅE", GetColor(255, 255, 255));
 
