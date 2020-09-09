@@ -40,8 +40,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		DrawExtendGraph(0, 0, GAME_WIDTH, GAME_HEIGHT, handle, FALSE);
 		//DrawGraph(0, 0, handle, FALSE);
 
-		DrawString(0, 0, "å‹•ç”»ã‚’å†ç”Ÿã—ã¦ã„ã¾ã™ãƒ»ãƒ»ãƒ»", GetColor(255, 255, 255));
-		DrawString(0, 20, "ãƒ•ã‚°ã®å‹•ç”»", GetColor(255, 255, 255));
+		DrawString(0, 0, "“®‰æ‚ðÄ¶‚µ‚Ä‚¢‚Ü‚·EEE", GetColor(255, 255, 255));
+		DrawString(0, 20, "ƒtƒO‚Ì“®‰æ", GetColor(255, 255, 255));
 
 		ScreenFlip();
 	}
